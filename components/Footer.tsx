@@ -9,6 +9,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
@@ -22,7 +23,13 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center font-bold text-lg">
-                C
+                <Image
+                  src="/images/cresta_logo.png"
+                  alt="Cresta Logo"
+                  className="w-full h-full object-cover"
+                  width={40}
+                  height={40}
+                />
               </div>
               <span className="font-bold text-xl">Cresta</span>
             </div>
