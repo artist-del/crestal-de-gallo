@@ -1,0 +1,11 @@
+export { Button } from './Button';
+export { Card } from './Card';
+export { Modal } from './Modal';
+export { Navbar } from './Navbar';
+export { Hero } from './Hero';
+export { About } from './About';
+export { Boats } from './Boats';
+export { BookingModal } from './BookingModal';
+export { Features } from './Features';
+export { Testimonials } from './Testimonials';
+export { Footer } from './Footer';
