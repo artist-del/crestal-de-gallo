@@ -195,7 +195,7 @@ export const BookingModal = ({
           <select
             id="boatId"
             name="boatId"
-            value={formData.boatId}
+            value={selectedBoatId}
             onChange={handleInputChange}
             className={`w-full px-4 py-3 rounded-lg border-2 transition-all duration-200 focus:outline-none ${
               errors.boatId
